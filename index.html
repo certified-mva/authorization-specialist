@@ -1,32 +1,44 @@
-<!doctype html>  
-<html lang="en">  
-<head>  
-  <meta charset="utf-8" />  
-  <meta name="viewport" content="width=device-width, initial-scale=1" />  
-  <title>JR | Virtual Assistant & Quality Support Specialist</title>  
-  <meta name="description" content="Administrative, Healthcare QA, Accounting & Compliance Support." />  
-  <link rel="stylesheet" href="styles.css" />  
-</head>  
+<!doctype html>
+<html lang="en">
+  <head>      
+<meta charset="utf-8" />      
+<meta name="viewport" content="width=device-width, initial-scale=1" />      
+<title>JR | Virtual Assistant & Quality Support</title>      
+<meta name="description" content="Administrative, Healthcare QA, Accounting & Compliance Support." />      
+      
+<!-- ✅ Fonts -->      
+<link rel="preconnect" href="https://fonts.googleapis.com">      
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>      
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">      
+      
+<!-- ✅ CSS -->      
+<link rel="stylesheet" href="styles.css" />      
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"/>      
+</head>    
   
 <body>  
+  
 <header class="site-header" id="nav">  
   <div class="container nav">  
-    <a class="brand" href="#top"><span class="brand-mark">JR</span></a>  
-    <nav class="nav-links">  
-      <a href="#home">Home</a>  
+    <a class="brand" href="#top" aria-label="Home">  
+      <span class="brand-mark">JR</span>  
+    </a>  
+  
+    <nav class="nav-links" aria-label="Primary">  
+      <a href="#home">Home</a>    
       <a href="#about">About</a>  
       <a href="#services">Services</a>  
       <a href="#why-outsource">Why Outsource</a>  
       <a href="#experience">Experience</a>  
-      <a href="#contact">Contact</a>  
+      <a href="#contact">Contact</a>    
     </nav>  
+  
     <a class="nav-cta" href="#contact">Let's Connect</a>  
   </div>  
 </header>  
   
 <main id="Top">  
   
-<!-- HERO -->  
 <section id="home" class="hero">  
   <div class="container hero-wrap">  
     <div class="hero-left">  
@@ -36,17 +48,17 @@
       </div>  
   
       <h1 class="reveal">  
-        Reliable virtual support for healthcare, accounting, and administrative operations.  
+        Reliable Virtual Assistance & Quality Support for Business Operations<br/>  
       </h1>  
   
       <p class="lead reveal">  
-        I help organizations maintain accurate records, ensure compliance, and streamline daily workflows.  
-        With experience in healthcare quality assurance, credential verification, accounting liaison work,  
-        and administrative support, I bring structure, accuracy, and accountability to every task.  
+        Helping healthcare organizations, accounting offices, and service-based businesses  
+        maintain accurate documentation, regulatory compliance, and efficient workflows.  
       </p>  
   
-      <p class="reveal">  
-        My focus is on documentation accuracy, regulatory compliance, and dependable remote support.  
+      <p class="lead reveal">  
+        Experienced in healthcare quality assurance, accounting liaison work, credential verification,  
+        administrative support, and remote operations.  
       </p>  
   
       <div class="hero-actions reveal">  
@@ -54,17 +66,36 @@
       </div>  
   
       <div class="hero-metrics">  
-        <div class="metric reveal">  
-          <strong>Compliance‑Driven</strong>  
+        <div class="metric reveal reveal-delay-1">  
+          <div class="metric-top">  
+            <span class="dot"></span>  
+            <strong>Compliance Ready</strong>  
+          </div>  
           <p>Audit‑ready documentation</p>  
         </div>  
-        <div class="metric reveal">  
-          <strong>Detail‑Oriented</strong>  
-          <p>Accurate records & reporting</p>  
+  
+        <div class="metric reveal reveal-delay-2">  
+          <div class="metric-top">  
+            <span class="dot"></span>  
+            <strong>Detail‑Oriented</strong>  
+          </div>  
+          <p>Accurate data & reporting</p>  
         </div>  
+  
+        <div class="metric reveal reveal-delay-3">  
+          <div class="metric-top">  
+            <span class="dot"></span>  
+            <strong>Remote‑Ready</strong>  
+          </div>  
+          <p>Local & international clients</p>  
+        </div>  
+  
         <div class="metric reveal">  
-          <strong>Remote‑Ready</strong>  
-          <p>US & PH clients supported</p>  
+          <div class="metric-top">  
+            <span class="dot"></span>  
+            <strong>Reliable Support</strong>  
+          </div>  
+          <p>Consistent task ownership</p>  
         </div>  
       </div>  
     </div>  
@@ -72,7 +103,7 @@
     <aside class="hero-right">  
       <div class="profile-card reveal">  
         <div class="profile-top">  
-          <img class="avatar" src="Jannver-Ruzzel.png.jpg" alt="Jannver profile photo" />  
+          <img class="avatar" src="Jannver-Ruzzel.png.jpg" alt="Jannver profile photo" onclick="openImageModal(this.src)" />  
           <div class="profile-text">  
             <h2>JANNVER RUZZEL A. HILOMA</h2>  
             <p class="role">Virtual Assistant</p>  
@@ -81,7 +112,7 @@
         </div>  
   
         <div class="profile-cta">  
-          <a class="btn small" href="jannverruzzel_resume.pdf.pdf" target="_blank">Resume</a>  
+          <a class="btn small" href="jannverruzzel_resume.pdf.pdf" target="_blank" rel="noopener">Resume</a>  
         </div>  
   
         <div class="profile-info">  
@@ -94,12 +125,17 @@
             <strong>Remote</strong>  
           </div>  
         </div>  
+  
+        <div class="profile-links">  
+          <a class="link-chip" href="mailto:pandahiloma@gmail.com">Email</a>  
+          <a class="link-chip" href="https://wa.me/639923668140" target="_blank">WhatsApp</a>  
+          <a class="link-chip" href="https://www.linkedin.com/in/jannver-ruzzel-hiloma-5174ba24a/" target="_blank">LinkedIn</a>  
+        </div>  
       </div>  
     </aside>  
   </div>  
 </section>  
   
-<!-- ABOUT -->  
 <section id="about" class="section">  
   <div class="container">  
     <div class="section-head reveal center">  
@@ -107,43 +143,45 @@
       <h2>Dependable Remote Professional</h2>  
       <p class="section-sub">  
         I am a motivated and versatile professional with experience in healthcare quality assurance,  
-        accounting liaison work, administrative support, and verification operations.  
+        accounting liaison work, administrative support, and credential verification.  
       </p>  
       <p>  
-        I’ve supported US healthcare organizations, local accounting offices, and remote teams by  
-        ensuring compliance, accurate documentation, and smooth day‑to‑day operations.  
+        I’ve worked with US-based healthcare organizations, local accounting firms,  
+        and remote teams to ensure compliance, accuracy, and efficient operations.  
       </p>  
     </div>  
   </div>  
 </section>  
   
-<!-- SERVICES -->  
 <section id="services" class="section alt">  
   <div class="container">  
     <div class="section-head reveal center">  
       <p class="kicker">WHAT I DO</p>  
-      <h2>Services I Provide</h2>  
+      <h2>How I Support Businesses</h2>  
+      <p class="section-sub">  
+        Reliable operational, administrative, and compliance support  
+      </p>  
     </div>  
   
     <div class="grid-2">  
       <article class="card big reveal">  
         <h3>Quality Assurance & Compliance</h3>  
-        <p>• Documentation review and verification</p>  
-        <p>• Regulatory compliance support</p>  
-        <p>• Audit‑readiness checks</p>  
+        <p>• Healthcare documentation review</p>  
+        <p>• Regulatory compliance checks</p>  
+        <p>• Audit readiness support</p>  
       </article>  
   
       <article class="card big reveal">  
         <h3>Administrative & Virtual Assistance</h3>  
-        <p>• Data entry & records management</p>  
-        <p>• Email and document handling</p>  
+        <p>• Data entry & record management</p>  
+        <p>• Email & document handling</p>  
         <p>• Task tracking & reporting</p>  
       </article>  
   
       <article class="card big reveal">  
-        <h3>Accounting & BIR Liaison Support</h3>  
-        <p>• Client document collection</p>  
-        <p>• BIR forms, ATP, COR, TIN processing</p>  
+        <h3>Accounting & BIR Liaison</h3>  
+        <p>• Client document coordination</p>  
+        <p>• BIR applications & compliance</p>  
         <p>• ORUS book updates</p>  
       </article>  
   
@@ -151,47 +189,25 @@
         <h3>Verification & Credential Review</h3>  
         <p>• Medical credential verification</p>  
         <p>• Compliance validation</p>  
-        <p>• Applicant communication & reporting</p>  
+        <p>• Reporting & follow-ups</p>  
       </article>  
     </div>  
   </div>  
 </section>  
   
-<!-- WHY OUTSOURCE -->  
 <section id="why-outsource" class="section">  
   <div class="container">  
     <div class="section-head reveal center">  
       <p class="kicker">WHY OUTSOURCE</p>  
-      <h2>Why Work With a Remote Specialist</h2>  
+      <h2>Why Businesses Outsource Support Roles</h2>  
       <p class="section-sub">  
-        Outsourcing administrative and compliance tasks allows your team to focus on core operations  
-        while ensuring accuracy and consistency.  
+        Outsourcing administrative and compliance tasks allows teams to focus on growth  
+        while maintaining accuracy and consistency.  
       </p>  
-    </div>  
-  
-    <div class="grid-2">  
-      <div class="card big reveal">  
-        <h3>For Businesses</h3>  
-        <ul class="list">  
-          <li>Reduced workload and overhead</li>  
-          <li>Improved documentation accuracy</li>  
-          <li>Consistent compliance support</li>  
-        </ul>  
-      </div>  
-  
-      <div class="card big reveal">  
-        <h3>For Teams</h3>  
-        <ul class="list">  
-          <li>Reliable remote collaboration</li>  
-          <li>Clear communication and reporting</li>  
-          <li>Faster task completion</li>  
-        </ul>  
-      </div>  
     </div>  
   </div>  
 </section>  
   
-<!-- EXPERIENCE -->  
 <section id="experience" class="section">  
   <div class="container">  
     <div class="section-head reveal center">  
@@ -200,41 +216,218 @@
     </div>  
   
     <div class="stack">  
+  
       <div class="job reveal">  
-        <h3>Quality Assurance Specialist (Remote)</h3>  
-        <p class="meta">Achieve Better ABA | USA</p>  
-        <span class="pill">Jul 2025 – Dec 2025</span>  
+        <div class="job-head">  
+          <div>  
+            <h3>Quality Assurance Specialist (Remote)</h3>  
+            <p class="meta">Achieve Better ABA | Charlotte, NC, USA</p>  
+            <p class="meta">Remote | Healthcare</p>  
+          </div>  
+          <span class="pill">July 2025 – December 2025</span>  
+        </div>  
         <ul>  
-          <li>Reviewed healthcare documentation for accuracy and compliance</li>  
-          <li>Maintained audit‑ready records</li>  
-          <li>Coordinated with clinical and admin teams</li>  
+          <li>Reviewed and verified healthcare documentation including patient records, clinical reports, and regulatory submissions</li>  
+          <li>Ensured compliance with regulatory standards, clinical protocols, and internal quality procedures</li>  
+          <li>Maintained audit‑ready records to support regulatory and internal reviews</li>  
+          <li>Coordinated with clinical and administrative teams to monitor operational processes</li>  
+          <li>Implemented quality control measures to support patient safety and organizational excellence</li>  
         </ul>  
       </div>  
   
       <div class="job reveal">  
-        <h3>Accountant Liaison</h3>  
-        <p class="meta">RBL Accounting Office</p>  
-        <span class="pill">Dec 2024 – Jun 2025</span>  
+        <div class="job-head">  
+          <div>  
+            <h3>Accountant Liaison</h3>  
+            <p class="meta">RBL Accounting Office | Sorsogon City, Philippines</p>  
+            <p class="meta">On‑site | Accounting & Compliance</p>  
+          </div>  
+          <span class="pill">December 2024 – June 2025</span>  
+        </div>  
         <ul>  
-          <li>Processed BIR applications and compliance documents</li>  
-          <li>Managed books using ORUS</li>  
+          <li>Collected financial documents including receipts, sales reports, and payroll data from clients</li>  
+          <li>Coordinated with printing presses for BIR‑authorized official receipts and sales invoices</li>  
+          <li>Processed BIR applications including ATP, COR updates, new registrations, business closures, and TIN registration</li>  
+          <li>Handled BIR Form 0605 payments, renewals, and tax clearance requests</li>  
+          <li>Updated books of accounts using the Online Registration and Update System (ORUS)</li>  
         </ul>  
       </div>  
   
       <div class="job reveal">  
-        <h3>Assistant Team Leader – Verification</h3>  
-        <p class="meta">GLP Theorem Ventures Corp.</p>  
-        <span class="pill">Jun 2020 – Feb 2022</span>  
+        <div class="job-head">  
+          <div>  
+            <h3>Delivery Courier</h3>  
+            <p class="meta">Flash Express PH | Sorsogon City, Philippines</p>  
+            <p class="meta">Field Operations</p>  
+          </div>  
+          <span class="pill">March 2024 – September 2024</span>  
+        </div>  
         <ul>  
-          <li>Verified medical credentials</li>  
-          <li>Prepared reports and compliance reviews</li>  
+          <li>Sorted, scanned, and delivered parcels based on assigned delivery routes</li>  
+          <li>Verified delivery details and obtained proof of delivery via signature or electronic confirmation</li>  
+          <li>Updated delivery statuses and handled return‑to‑sender items</li>  
+          <li>Reported delivery issues and ensured customer satisfaction</li>  
+        </ul>  
+      </div>  
+  
+      <div class="job reveal">  
+        <div class="job-head">  
+          <div>  
+            <h3>L2 Associate</h3>  
+            <p class="meta">ISTA Personnel Solutions | Mandaluyong City, Philippines</p>  
+            <p class="meta">Remote Operations</p>  
+          </div>  
+          <span class="pill">August 2023 – January 2024</span>  
+        </div>  
+        <ul>  
+          <li>Served as a coordination point between clients, therapists, and internal systems</li>  
+          <li>Managed applicant emails through Indeed and JazzHR platforms</li>  
+          <li>Completed operational tasks using ClickUp and maintained records in CentralReach</li>  
+          <li>Created digital engagement materials for therapist and client milestones</li>  
+          <li>Conducted surveys and ensured accurate documentation</li>  
+        </ul>  
+      </div>  
+  
+      <div class="job reveal">  
+        <div class="job-head">  
+          <div>  
+            <h3>Assistant Computer Laboratory Facilitator (OJT)</h3>  
+            <p class="meta">ACLC College of Sorsogon | Sorsogon City</p>  
+            <p class="meta">IT Support & Administration</p>  
+          </div>  
+          <span class="pill">September 2022 – January 2023</span>  
+        </div>  
+        <ul>  
+          <li>Supported daily computer laboratory operations and system maintenance</li>  
+          <li>Assisted with enrollment processes and student ID creation</li>  
+          <li>Performed computer inventory, basic networking, and troubleshooting</li>  
+          <li>Supervised computerized examinations for students and faculty</li>  
+        </ul>  
+      </div>  
+  
+      <div class="job reveal">  
+        <div class="job-head">  
+          <div>  
+            <h3>Assistant Team Leader – Verification Department</h3>  
+            <p class="meta">GLP Theorem Ventures Corporation | Sorsogon City</p>  
+            <p class="meta">Verification & Compliance</p>  
+          </div>  
+          <span class="pill">June 2020 – February 2022</span>  
+        </div>  
+        <ul>  
+          <li>Reviewed and verified licenses and credentials of medical professionals</li>  
+          <li>Ensured compliance with verification and documentation standards</li>  
+          <li>Sent automated requests for missing or incomplete documentation</li>  
+          <li>Prepared daily and weekly email reports for clients</li>  
+          <li>Supported workflow optimization and team performance</li>  
+        </ul>  
+      </div>  
+  
+      <div class="job reveal">  
+        <div class="job-head">  
+          <div>  
+            <h3>Office Assistant</h3>  
+            <p class="meta">MDRRMO | Matnog, Sorsogon</p>  
+            <p class="meta">Administrative Support</p>  
+          </div>  
+          <span class="pill">April 2017 – May 2017</span>  
+        </div>  
+        <ul>  
+          <li>Provided clerical and administrative support including filing and data encoding</li>  
+          <li>Assisted with document handling, communications, and office errands</li>  
+          <li>Supported inventory and office organization</li>  
+        </ul>  
+      </div>  
+  
+    </div>  
+  </div>  
+</section>  
+  <section id="skills" class="section alt">  
+  <div class="container">  
+    <div class="section-head reveal center">  
+      <p class="kicker">EXPERTISE</p>  
+      <h2>Skills, Systems & Professional Strengths</h2>  
+    </div>  
+  
+    <div class="grid-2">  
+      <div class="card big reveal">  
+        <h3>Healthcare & Compliance Expertise</h3>  
+        <ul class="list">  
+          <li>Healthcare Quality Assurance & Documentation Review</li>  
+          <li>Regulatory Compliance & Audit Readiness</li>  
+          <li>Medical Credential Verification</li>  
+          <li>Clinical & Administrative Coordination</li>  
+        </ul>  
+      </div>  
+  
+      <div class="card big reveal">  
+        <h3>Administrative & Accounting Support</h3>  
+        <ul class="list">  
+          <li>Administrative & Virtual Assistance</li>  
+          <li>Accounting Liaison & BIR Processing</li>  
+          <li>ORUS Book of Accounts Updates</li>  
+          <li>Data Entry & Records Management</li>  
+        </ul>  
+      </div>  
+  
+      <div class="card big reveal">  
+        <h3>Systems & Tools</h3>  
+        <ul class="list">  
+          <li>ORUS (Online Registration and Update System)</li>  
+          <li>CentralReach</li>  
+          <li>ClickUp</li>  
+          <li>Indeed & JazzHR</li>  
+        </ul>  
+      </div>  
+  
+      <div class="card big reveal">  
+        <h3>Professional Strengths</h3>  
+        <ul class="list">  
+          <li>High attention to detail & data accuracy</li>  
+          <li>Compliance‑focused mindset</li>  
+          <li>Strong written & verbal communication</li>  
+          <li>Independent and reliable remote worker</li>  
         </ul>  
       </div>  
     </div>  
   </div>  
 </section>  
+  <section class="section">  
+  <div class="container">  
+    <div class="section-head reveal center">  
+      <p class="kicker">RESULTS</p>  
+      <h2>What Clients & Teams Achieve Working With Me</h2>  
+    </div>  
   
-<!-- CONTACT -->  
+    <div class="grid-3">  
+      <div class="card reveal">  
+        <p>Accurate, audit‑ready documentation that meets regulatory standards</p>  
+      </div>  
+      <div class="card reveal">  
+        <p>Reduced errors and rework through careful review and verification</p>  
+      </div>  
+      <div class="card reveal">  
+        <p>Improved workflow efficiency and organized record systems</p>  
+      </div>  
+      <div class="card reveal">  
+        <p>Reliable task ownership with minimal supervision required</p>  
+      </div>  
+      <div class="card reveal">  
+        <p>Consistent reporting and follow‑ups across teams</p>  
+      </div>  
+      <div class="card reveal">  
+        <p>Trusted support for compliance‑critical operations</p>  
+      </div>  
+    </div>  
+  
+    <div class="cta reveal">  
+      <h3>Looking for dependable remote support?</h3>  
+      <p>I help organizations stay compliant, organized, and efficient.</p>  
+      <a class="btn primary" href="#contact">Let’s Work Together</a>  
+    </div>  
+  </div>  
+</section>  
+  
 <section id="contact" class="section alt">  
   <div class="container">  
     <div class="section-head reveal center">  
@@ -244,15 +437,6 @@
         Available for remote administrative, QA, and compliance support.  
       </p>  
     </div>  
-  
-    <div class="contact reveal">  
-      <div class="contact-box">  
-        <h3>Contact Information</h3>  
-        <p>Email: <a href="mailto:pandahiloma@gmail.com">pandahiloma@gmail.com</a></p>  
-        <p>WhatsApp: +63 992 366 8140</p>  
-        <p>Location: Sorsogon City, Philippines</p>  
-      </div>  
-    </div>  
   </div>  
 </section>  
   
@@ -260,14 +444,23 @@
   <div class="container foot reveal">  
     <p class="foot-name">JANNVER RUZZEL A. HILOMA</p>  
     <p class="foot-meta">Virtual Assistant & Quality Support</p>  
+    <p class="foot-meta">Supporting Remote & On‑Site Teams</p>  
+  
+    <div class="footer-social">  
+      <a class="btn" href="mailto:pandahiloma@gmail.com"><i class="fa-solid fa-envelope"></i></a>  
+      <a href="https://wa.me/639923668140" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>  
+      <a href="https://www.linkedin.com/in/jannver-ruzzel-hiloma-5174ba24a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>  
+    </div>  
+  
     <p class="foot-copy">© <span id="year"></span> All rights reserved</p>  
   </div>  
 </footer>  
   
+</main>  
+  
 <script>  
-  document.getElementById("year").textContent = new Date().getFullYear();  
+document.getElementById("year").textContent = new Date().getFullYear();  
 </script>  
   
-</main>  
 </body>  
 </html>  
